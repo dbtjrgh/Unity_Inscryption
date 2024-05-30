@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Optimized Leaf Material
+  m_Shader: {fileID: 10605, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _BumpSpecMap:
+        m_Texture: {fileID: 2800000, guid: 20590aee0e031df45b19660d123282f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 01f1f192b69f3064bab2ef49bfa0fdb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ShadowTex:
+        m_Texture: {fileID: 2800000, guid: 1128ef25e45d17a4b9fbb7bd735ca729, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TranslucencyMap:
+        m_Texture: {fileID: 2800000, guid: 56b063349dab8e641a57ea4114c46456, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.3
+      _ShadowOffsetScale: 1
+      _ShadowStrength: 0.8
+      _SquashAmount: 1
+      _TranslucencyViewDependency: 0.7
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _TranslucencyColor: {r: 0.48960465, g: 0.52205884, b: 0.40306014, a: 1}
+      _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+      _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}

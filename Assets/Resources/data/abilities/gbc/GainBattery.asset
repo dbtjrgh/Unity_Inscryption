@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e5f394c6e192ad3bcf7b9ea092457f, type: 3}
+  m_Name: GainBattery
+  m_EditorClassIdentifier:
+  ability: 51
+  passive: 0
+  activated: 0
+  metaCategories:
+  - 2
+  - 3
+  - 7
+  powerLevel: 2
+  opponentUsable: 0
+  canStack: 0
+  conduit: 0
+  conduitCell: 0
+  flipYIfOpponent: 0
+  customFlippedIcon: 0
+  pixelIcon: {fileID: 21300000, guid: c9775f781087a4540a8ff7698d606189, type: 2}
+  customFlippedPixelIcon: {fileID: 0}
+  hasColorOverride: 0
+  colorOverride: {r: 0, g: 0, b: 0, a: 0}
+  mesh3D: {fileID: 4300000, guid: df67e776b0dfd0f468e7e1c1befd8cc2, type: 2}
+  abilityLearnedDialogue:
+    lines: []
+  triggerText: '[creature] provides an Energy Cell!'
+  keywordAbility: 0
+  rulebookName: Battery Bearer
+  rulebookDescription: When [creature] is played, it provides an Energy Cell to its owner.

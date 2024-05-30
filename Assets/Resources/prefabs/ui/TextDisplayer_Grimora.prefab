@@ -1,0 +1,543 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1459930293462058
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4941793398961078}
+  - component: {fileID: 114163324744007804}
+  m_Layer: 5
+  m_Name: TextDisplayer_Grimora
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1167798489834250
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224273035970183387}
+  - component: {fileID: 223259216940903847}
+  - component: {fileID: 114086316996508097}
+  m_Layer: 5
+  m_Name: TextCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1931450373067733
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4754478050616773}
+  m_Layer: 0
+  m_Name: DialogueTriangle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1676201480927541
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224085048313876717}
+  - component: {fileID: 222882764663180832}
+  - component: {fileID: 114144618854947957}
+  - component: {fileID: 95044674291143742}
+  m_Layer: 5
+  m_Name: DialogueTriangleAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1414097090687484
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224157156049193734}
+  - component: {fileID: 114344619038214391}
+  - component: {fileID: 114019437652966701}
+  m_Layer: 0
+  m_Name: TextFitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1650185657450391
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224777807341507145}
+  - component: {fileID: 222740993765405830}
+  - component: {fileID: 114661154575329773}
+  - component: {fileID: 114573098071474370}
+  m_Layer: 5
+  m_Name: DialogueText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1900165535873017
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224477216766898613}
+  - component: {fileID: 222596262759175603}
+  - component: {fileID: 114375294760882481}
+  - component: {fileID: 223478333752670495}
+  m_Layer: 5
+  m_Name: TextShadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4941793398961078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459930293462058}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0.1075, y: 0.1075, z: 1}
+  m_Children:
+  - {fileID: 224273035970183387}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114163324744007804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459930293462058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c14885ee6b81cdd3b28558f83a4641, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  textMesh: {fileID: 114661154575329773}
+  textAnimation: {fileID: 114573098071474370}
+  triangleAnim: {fileID: 95044674291143742}
+  triangleImage: {fileID: 114144618854947957}
+  textShadow: {fileID: 114375294760882481}
+  defaultStyle:
+    speaker: 0
+    color: {r: 0.4117647, g: 1, b: 0.627451, a: 1}
+    font: {fileID: 12800000, guid: 09f47d9003c05de44886d2a8c6455738, type: 3}
+    fontSizeChange: -1
+    voiceSoundIdPrefix: grimora
+    voiceSoundVolume: 0.35
+    triangleSprite: {fileID: 21300000, guid: 903e764a212fe324ba079cc7d5daeaad, type: 2}
+    triangleOffset: {x: 0, y: 0}
+  alternateSpeakerStyles: []
+--- !u!224 &224273035970183387
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167798489834250}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4754478050616773}
+  - {fileID: 224157156049193734}
+  m_Father: {fileID: 4941793398961078}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 19.2, y: 10.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &223259216940903847
+Canvas:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167798489834250}
+  m_Enabled: 1
+  m_RenderMode: 2
+  m_Camera: {fileID: 20287296527281291, guid: 747a23c5026ff0b4b82762ebd2139c44, type: 2}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 1273622135
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &114086316996508097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167798489834250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 100
+--- !u!4 &4754478050616773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931450373067733}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.1, z: 0}
+  m_LocalScale: {x: 0.72, y: -0.72, z: 0.72}
+  m_Children:
+  - {fileID: 224085048313876717}
+  m_Father: {fileID: 224273035970183387}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &224085048313876717
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676201480927541}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4754478050616773}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.56, y: 0.4182}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222882764663180832
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676201480927541}
+  m_CullTransparentMesh: 0
+--- !u!114 &114144618854947957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676201480927541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.51370597, g: 0.8693166, b: 0.9811321, a: 0}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 73c391569d14a934e8eef20d8b23e40b, type: 2}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!95 &95044674291143742
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676201480927541}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 47913a450f1714144b2bed3c9e6214db, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!224 &224157156049193734
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414097090687484}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_Children:
+  - {fileID: 224777807341507145}
+  m_Father: {fileID: 224273035970183387}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 5}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &114344619038214391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414097090687484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+--- !u!114 &114019437652966701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414097090687484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
+--- !u!224 &224777807341507145
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650185657450391}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224477216766898613}
+  m_Father: {fileID: 224157156049193734}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 107.87, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222740993765405830
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650185657450391}
+  m_CullTransparentMesh: 0
+--- !u!114 &114661154575329773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650185657450391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.51370597, g: 0.8693166, b: 0.9811321, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: f551a4b108bcd704bad68e1d7ab17b2e, type: 3}
+    m_FontSize: 4
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 35
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text:
+--- !u!114 &114573098071474370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650185657450391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352f1a1f025952571b4d1e8e42942e8d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _TimeSource: 0
+  _OnEnable_PlayAnim: 0
+  _AnimationSlots:
+  - _LocalSerializedData: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<SE_Animation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Name=\"Jitter\" _Playback=\"PingPong\" _Backwards=\"false\" _PlaybackTimes=\"-1\" _ExtraTimeFinal=\"0\" _ExtraTimePerLoop=\"0\">\r\n  <_Sequences>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Alpha\">\r\n      <_Name>Jitter Alpha</_Name>\r\n     <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.25</_Duration>\r\n     <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>2</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>0.95</_From>\r\n      <_FromRandom>0</_FromRandom>\r\n      <_To>1</_To>\r\n     <_ToRandom>0</_ToRandom>\r\n      <_AnimBlend_From>Replace</_AnimBlend_From>\r\n     <_AnimBlend_To>Replace</_AnimBlend_To>\r\n      <_OnFinish_SetAlphaToFinalValue>false</_OnFinish_SetAlphaToFinalValue>\r\n   </SE_AnimSequence>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Scale\">\r\n     <_Name>Jitter Scale</_Name>\r\n      <_StartType>OnAnimStart</_StartType>\r\n     <_StartDelay>0</_StartDelay>\r\n      <_Separation>0</_Separation>\r\n     <_RandomStart>1</_RandomStart>\r\n      <_DurationType>TotalTime</_DurationType>\r\n     <_Duration>0.25</_Duration>\r\n      <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n     <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n      <_Playback>Loop</_Playback>\r\n     <_Backwards>false</_Backwards>\r\n      <_PlaybackTimes>2</_PlaybackTimes>\r\n     <_EasingCurve>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>false</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0.05</x>\r\n        <y>0.05</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n     <_Pivot>\r\n        <x>0.5</x>\r\n        <y>0.5</y>\r\n        <z>0</z>\r\n     </_Pivot>\r\n      <_PivotType>Relative_Letter</_PivotType>\r\n    </SE_AnimSequence>\r\n   <SE_AnimSequence xsi:type=\"SE_AnimSequence_Position\">\r\n      <_Name />\r\n      <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.1</_Duration>\r\n     <_DurationRandom_Slower>1</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>1</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>5</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>-0.047</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0</x>\r\n        <y>0.047</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n   </SE_AnimSequence>\r\n  </_Sequences>\r\n</SE_Animation>"
+    _Preset: {fileID: 11400000, guid: fc4b6d727d7de1d41b0e03bbe7fe8838, type: 2}
+  - _LocalSerializedData: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<SE_Animation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Name=\"Jitter\" _Playback=\"PingPong\" _Backwards=\"false\" _PlaybackTimes=\"-1\" _ExtraTimeFinal=\"0\" _ExtraTimePerLoop=\"0\">\r\n  <_Sequences>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Alpha\">\r\n      <_Name>Jitter Alpha</_Name>\r\n     <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.25</_Duration>\r\n     <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>2</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>0.95</_From>\r\n      <_FromRandom>0</_FromRandom>\r\n      <_To>1</_To>\r\n     <_ToRandom>0</_ToRandom>\r\n      <_AnimBlend_From>Replace</_AnimBlend_From>\r\n     <_AnimBlend_To>Replace</_AnimBlend_To>\r\n      <_OnFinish_SetAlphaToFinalValue>false</_OnFinish_SetAlphaToFinalValue>\r\n   </SE_AnimSequence>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Scale\">\r\n     <_Name>Jitter Scale</_Name>\r\n      <_StartType>OnAnimStart</_StartType>\r\n     <_StartDelay>0</_StartDelay>\r\n      <_Separation>0</_Separation>\r\n     <_RandomStart>1</_RandomStart>\r\n      <_DurationType>TotalTime</_DurationType>\r\n     <_Duration>0.25</_Duration>\r\n      <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n     <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n      <_Playback>Loop</_Playback>\r\n     <_Backwards>false</_Backwards>\r\n      <_PlaybackTimes>2</_PlaybackTimes>\r\n     <_EasingCurve>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>false</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0.05</x>\r\n        <y>0.05</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n     <_Pivot>\r\n        <x>0.5</x>\r\n        <y>0.5</y>\r\n        <z>0</z>\r\n     </_Pivot>\r\n      <_PivotType>Relative_Letter</_PivotType>\r\n    </SE_AnimSequence>\r\n   <SE_AnimSequence xsi:type=\"SE_AnimSequence_Position\">\r\n      <_Name />\r\n      <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.1</_Duration>\r\n     <_DurationRandom_Slower>1</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>1</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>5</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>-0.047</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0</x>\r\n        <y>0.047</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n   </SE_AnimSequence>\r\n  </_Sequences>\r\n</SE_Animation>"
+    _Preset: {fileID: 11400000, guid: a87506280b0e92742b28696498f87472, type: 2}
+  _OnAnimation_Finished:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!224 &224477216766898613
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900165535873017}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224777807341507145}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222596262759175603
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900165535873017}
+  m_CullTransparentMesh: 0
+--- !u!114 &114375294760882481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900165535873017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.007843138, g: 0.039215688, b: 0.06666667, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f50c5abc3e20ae64083dd277eedf9a97, type: 2}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 15.1
+--- !u!223 &223478333752670495
+Canvas:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900165535873017}
+  m_Enabled: 1
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 1273622135
+  m_SortingOrder: -1
+  m_TargetDisplay: 0

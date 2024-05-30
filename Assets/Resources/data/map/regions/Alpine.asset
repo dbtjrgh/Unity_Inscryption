@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80cfe7048701081ed4ae9b482d5b496f, type: 3}
+  m_Name: Alpine
+  m_EditorClassIdentifier:
+  terrainCards:
+  - {fileID: 11400000, guid: 679c71d81df914d479457d47021479d6, type: 2}
+  - {fileID: 11400000, guid: 8d30524d49ce36142b0e8b7974527ac4, type: 2}
+  - {fileID: 11400000, guid: e54dd2fe279502841aea54f76b528ed7, type: 2}
+  consumableItems:
+  - {fileID: 11400000, guid: afca1af3abccca244bccf40af767d609, type: 2}
+  encounters:
+  - {fileID: 11400000, guid: be29640358e8fc34d84c388da8506495, type: 2}
+  - {fileID: 11400000, guid: 7738b53fd6a2a1f43af7c3c056d5e7f7, type: 2}
+  - {fileID: 11400000, guid: 94ef80947c2662b46878ffc98fd1aa57, type: 2}
+  - {fileID: 11400000, guid: 6cfbdf4a5e3db1e459584e227b1634a1, type: 2}
+  - {fileID: 11400000, guid: 24f7d5b8bd5a29144b415bf548c46436, type: 2}
+  bosses:
+  - 6
+  likelyCards:
+  - {fileID: 11400000, guid: e3fd316e6c1770949974074968d7c58a, type: 2}
+  - {fileID: 11400000, guid: 79968e1bf3ae3e147908222f5281476e, type: 2}
+  - {fileID: 11400000, guid: 03dcae045837d094b80fbb4859727b8d, type: 2}
+  - {fileID: 11400000, guid: fa351d216bd96604f931eb29d3402e09, type: 2}
+  - {fileID: 11400000, guid: 9cb405caef8f45e4894c47cd61196232, type: 2}
+  - {fileID: 11400000, guid: c50eea7252676294d8f9d549696d1c12, type: 2}
+  - {fileID: 11400000, guid: bccf648a36d48644fb8c872d7237cae7, type: 2}
+  - {fileID: 11400000, guid: a714ad13007221b41be6509f5deae60a, type: 2}
+  - {fileID: 11400000, guid: be2fc5ddfaa8c1c47b49256cef87b060, type: 2}
+  - {fileID: 11400000, guid: ecc223d186aae734eb67314d500cd5a6, type: 2}
+  - {fileID: 11400000, guid: f10bdda33baea714ba73ca04955d4e43, type: 2}
+  - {fileID: 11400000, guid: 8d0a691e03ea797428e60f142a125079, type: 2}
+  dominantTribes:
+  - 4
+  - 2
+  predefinedNodes: {fileID: 0}
+  bossPrepEncounter: {fileID: 0}
+  bossPrepCondition:
+    metIfEventCompleted: 0
+    storyEvent: 0
+  scarceScenery:
+  - data: {fileID: 11400000, guid: 0f8af865b9b9d924db68ea0c06bccf03, type: 2}
+    minDensity: 0.75
+    minInstances: 5
+    maxInstances: 8
+  - data: {fileID: 11400000, guid: f0b945abeba11fc4fa9af5f155820d32, type: 2}
+    minDensity: 0.35
+    minInstances: 12
+    maxInstances: 25
+  fillerScenery:
+  - data: {fileID: 11400000, guid: eb3b13e0117334646a7d3b5f4b23385e, type: 2}
+  predefinedScenery: {fileID: 0}
+  ambientLoopId: ambient_snowline
+  silenceCabinAmbience: 1
+  boardLightColor: {r: 0.9843138, g: 0.6666667, b: 0.30588236, a: 1}
+  cardsLightColor: {r: 1, g: 0.57254905, b: 0.14901961, a: 1}
+  dustParticlesDisabled: 0
+  fogEnabled: 0
+  fogProfile: {fileID: 0}
+  fogAlpha: 0
+  mapAlbedo: {fileID: 2800000, guid: 64c666c8a49d6ed4ab6f67eb4b7b3944, type: 3}
+  mapEmission: {fileID: 2800000, guid: a35aea4e80a11064a8797271e91f5aa5, type: 3}
+  mapEmissionColor: {r: 0.31101102, g: 0.23051403, b: 0.13538127, a: 1}
+  mapParticlesPrefabs:
+  - {fileID: 1219839497286436, guid: f4ee9e1c7d3e5574193806c56a2aa189, type: 2}

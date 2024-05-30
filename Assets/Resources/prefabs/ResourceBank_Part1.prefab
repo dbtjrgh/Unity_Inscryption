@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1430666720858557
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4840147412578285}
+  - component: {fileID: 114229849544962126}
+  m_Layer: 0
+  m_Name: ResourceBank_Part1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4840147412578285
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430666720858557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114229849544962126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430666720858557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aaacc2b046ab1303b9b244bc5ddbbb2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  resources:
+  - path: Prefabs/Items/TotemPieces/TotemTop_Bird
+    asset: {fileID: 1310647120146857, guid: e18527502e404ea478a129bc8d3beeef, type: 2}
+  - path: Prefabs/Items/TotemPieces/TotemTop_Canine
+    asset: {fileID: 1518946381151140, guid: f9d836025c48a4a429a26c9bed66eed0, type: 2}
+  - path: Prefabs/Items/TotemPieces/TotemTop_Hooved
+    asset: {fileID: 1099484975802077, guid: 26c9f7bc3ea7bb24dac1b7f46b60a2a0, type: 2}
+  - path: Prefabs/Items/TotemPieces/TotemTop_Insect
+    asset: {fileID: 1633840663414223, guid: 94878ea302fab8442a6bce0161ca82db, type: 2}
+  - path: Prefabs/Items/TotemPieces/TotemTop_Reptile
+    asset: {fileID: 1389878432194659, guid: b4bc6373b361b8e4eb2a0e518c66cb1a, type: 2}
+  - path: Prefabs/Items/TotemPieces/TotemTop_Squirrel
+    asset: {fileID: 1247741736623449, guid: edd4324cb6333134ba56eed9c1aa9c83, type: 2}
+  - path: Prefabs/Items/TotemPieces/TotemBottom_CardGainAbility
+    asset: {fileID: 1255997807540368, guid: 518142b5e2bdeb2418dfb07e7a77e936, type: 2}
+  - path: Prefabs/CardBattle/BossSkull
+    asset: {fileID: 1271421205583260, guid: a261c9ba948615a49819e6049abf0d74, type: 2}
+  - path: Prefabs/Environment/TableEffects/ForestTableEffects
+    asset: {fileID: 1668067260390583, guid: e02370490d1c19e459d103820ae310bb, type: 2}
+  - path: Prefabs/Cards/PlayableCard
+    asset: {fileID: 1446329994866074, guid: 1c4d4702808fc6443bb1d14eb5c158ab, type: 2}
+  - path: Prefabs/Cards/SelectableCard
+    asset: {fileID: 1856373483674246, guid: ec7447ac9714c964abaee3365889aafb, type: 2}
+  - path: Art/Cards/card_empty
+    asset: {fileID: 2800000, guid: 69e0bfdb76a76234ebee0bb93fb25570, type: 3}
+  - path: Art/Cards/card_empty_nostats
+    asset: {fileID: 2800000, guid: 00a115220166792419088b33508735c1, type: 3}
+  - path: Art/Cards/card_empty_sprite
+    asset: {fileID: 21300000, guid: 684209611229a8e4f8852d992a9d9311, type: 2}
+  - path: Art/Cards/card_empty_sprite
+    asset: {fileID: 2800000, guid: 7bbee3df78044a74f9d05b59d05ee753, type: 3}
+  - path: Art/Cards/BaseVariations/card_empty_variation_1
+    asset: {fileID: 2800000, guid: be1b63fcfb2c9c24f9ff6d7d25b8059d, type: 3}
+  - path: Art/Cards/BaseVariations/card_empty_variation_2
+    asset: {fileID: 2800000, guid: 76768d67b8b1e8d40807b84220716477, type: 3}
+  - path: Art/Cards/BaseVariations/card_empty_variation_3
+    asset: {fileID: 2800000, guid: 145a57942e1552e428fa4c2ece09fcb6, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_1blood
+    asset: {fileID: 2800000, guid: 8b0eedd5d1cb7064d868b54cc2771a60, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_2blood
+    asset: {fileID: 2800000, guid: 1691b8490de49834faa3e42d3b7d5bbb, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_3blood
+    asset: {fileID: 2800000, guid: 6abca20c7ee0aef43a28405405b40b42, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_bones
+    asset: {fileID: 2800000, guid: 224aaa9701b784248a0329dba90b0aff, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_bird
+    asset: {fileID: 2800000, guid: eaead531c06ae7e4784954e9ef30c439, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_bird
+    asset: {fileID: 2800000, guid: eaead531c06ae7e4784954e9ef30c439, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_canine
+    asset: {fileID: 2800000, guid: aad6c5119e419414d9a7ab4e3d13201a, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_hooved
+    asset: {fileID: 2800000, guid: aa2a507a7784b8d4e95b1526ac452f45, type: 3}
+  - path: Art/Cards/RewardBacks/card_rewardback_reptile
+    asset: {fileID: 2800000, guid: bec083f25d5046649910c905fa6a9332, type: 3}
+  - path: Art/Cards/card_back
+    asset: {fileID: 2800000, guid: 4b05d90cfda33d5418817d096814cafd, type: 3}
+  - path: Art/Cards/card_back_squirrel
+    asset: {fileID: 2800000, guid: ea62c7ee9d6c3814280e46e62256e025, type: 3}
+  - path: Art/Effects/WavesTexture
+    asset: {fileID: 2800000, guid: c6b9ccc4c8a2c09408f3dc62cffca262, type: 3}
+  - path: Fonts/HEAVYWEIGHT
+    asset: {fileID: 11400000, guid: 5a22f01667a59904792486e84dd8481c, type: 2}
+  - path: Art/Effects/WavesTextureCube
+    asset: {fileID: 8900000, guid: b93bc8c1c1f4f3d48b7026fcfbe1b743, type: 3}
+  - path: Prefabs/Opponents/Leshy/Masks/MaskProspector
+    asset: {fileID: 1935879035563100, guid: 33d750eee27d91b46b2b46078bc8052a, type: 2}
+  - path: Prefabs/Opponents/Leshy/Masks/MaskWoodcarver
+    asset: {fileID: 1043268199139944, guid: 32ab75a4421456841b26666396dbdd12, type: 2}
+  - path: Prefabs/Opponents/Leshy/Masks/MaskTrapper
+    asset: {fileID: 1826657035193401, guid: 0a94896ce933f204985cd2ad60d0cb98, type: 2}
+  - path: Prefabs/Opponents/Leshy/Masks/MaskTrader
+    asset: {fileID: 1538198797741737, guid: 392631cb943c4bd41816154f5412c689, type: 2}
+  - path: Prefabs/Map/MapScenery/Cabin
+    asset: {fileID: 1549068513357466, guid: 977834a4530c1fe45bcc7a8f46a831b9, type: 2}
+  - path: Art/Cards/card_back_submerge
+    asset: {fileID: 2800000, guid: fdaf0c10c3f97de4f829a62cb33cdfcc, type: 3}
+  - path: Prefabs/SpecialNodeSequences/Mushroom
+    asset: {fileID: 1521131127414985, guid: c26433eee9412404fa0859f6f47daa79, type: 2}
+  - path: Prefabs/SpecialNodeSequences/Mushroom_Alt
+    asset: {fileID: 1344463259869863, guid: 63aa8937ff45024498c3e088b8b8b1b8, type: 2}

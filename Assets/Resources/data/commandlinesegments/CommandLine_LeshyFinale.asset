@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6425baa3f29dfa1659123a59c22dbe91, type: 3}
+  m_Name: CommandLine_LeshyFinale
+  m_EditorClassIdentifier:
+  speedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.005309883
+      value: 0.025280714
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.10654252
+      value: 0.03888631
+      inSlope: -0.654108
+      outSlope: -0.654108
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.301017
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.13582222
+      value: 0.016497694
+      inSlope: -0.5757611
+      outSlope: -0.5757611
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.34266046
+      value: 0.023771666
+      inSlope: -0.07726712
+      outSlope: -0.07726712
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6167678
+      value: 0.04001125
+      inSlope: -0.013725563
+      outSlope: -0.013725563
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8277423
+      value: 0.00067198277
+      inSlope: -0.017421186
+      outSlope: -0.017421186
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.3615002
+    - serializedVersion: 3
+      time: 1.0012702
+      value: 0.006740451
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  lines:
+  - text: 'ERROR: CORRUPTED CHUNK'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 12
+  - text: 'MISSING SCENE: LESHY.Cabin'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'ERROR: NULL CORRUPTED FILES DETECTED'
+    uniqueColor: 0
+    colorOverride: {r: 0.61960787, g: 0.14901961, b: 0.18823531, a: 1}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'Initializing subroutine: GameFuna.Inscryption.Error21Fix()'
+    uniqueColor: 0
+    colorOverride: {r: 0.61960787, g: 0.14901961, b: 0.18823531, a: 1}
+    percentProgress: 1
+    numPercentChunks: 21
+  - text: Wiping unexpected data
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 15
+  - text: 'ERROR: UNABLE TO WIPE UNEXPECTED DATA'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'CRITICAL ERROR: MISSING ASSETS CHECK'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 16
+  - text: Restoring backup
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 26
+  - text: 'BACKUP FOUND: MAGNIFICUS.????'
+    uniqueColor: 0
+    colorOverride: {r: 0.61960787, g: 0.14901961, b: 0.18823531, a: 1}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'Initializing subroutine: NewSaveFile()'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 5
+  - text: Creating new save file
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 31
+  - text: New save file created
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: Purging deck data
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 31
+  - text: Purging collection data
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 11
+  - text: Check /OLD_DATA/ key
+    uniqueColor: 0
+    colorOverride: {r: 0.08235294, g: 0.16470589, b: 0.23529413, a: 1}
+    percentProgress: 1
+    numPercentChunks: 5
+  - text: /OLD_DATA/ key denied
+    uniqueColor: 0
+    colorOverride: {r: 0.61960787, g: 0.14901961, b: 0.18823531, a: 1}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'Loading scene: MAGNIFICUS.????'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 13
+  - text: Scene loaded
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 0
+    numPercentChunks: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79984c3e2c8d828ed7b62493a21ef5ff, type: 3}
+  m_Name: ShieldGenerator
+  m_EditorClassIdentifier:
+  prefabId: ShieldGeneratorItem
+  pickupSoundId: metal_object_short
+  placedSoundId: metal_object_hit
+  examineSoundId: metal_object_short
+  modelHeight: 1.1
+  powerLevel: 3
+  description: Gives Nano Armor to your bots on the board. Decent.
+  rulebookCategory: 2
+  rulebookName: Nano Armor Generator
+  rulebookDescription: Your bots on the board get Nano Armor. If you use it right it's decently OK.
+  rulebookSprite: {fileID: 0}
+  regionSpecific: 1
+  notRandomlyGiven: 1

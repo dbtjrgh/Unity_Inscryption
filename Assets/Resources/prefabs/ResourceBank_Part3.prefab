@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1747932847397992
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4300694986553563}
+  - component: {fileID: 114401099707907921}
+  m_Layer: 0
+  m_Name: ResourceBank_Part3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4300694986553563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747932847397992}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114401099707907921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747932847397992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aaacc2b046ab1303b9b244bc5ddbbb2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  resources:
+  - path: Prefabs/UI/FileAccessUI
+    asset: {fileID: 1844591248910399, guid: 51b2afbe76a989940826d9a4e8fc2774, type: 2}
+  - path: Prefabs/CardBattle/GainHoloCoinAnim
+    asset: {fileID: 1086921862559046, guid: 5d49cfc0644a33840ba0ff156cf0f5a5, type: 2}
+  - path: Prefabs/SpecialNodeSequences/BuildACardScreen_Telegrapher
+    asset: {fileID: 1709769971119239, guid: b496556ebec3f7647ae32d5745bb766b, type: 2}
+  - path: Prefabs/SpecialNodeSequences/RedDiskModel
+    asset: {fileID: 1953601929991137, guid: fddf56db706884645b86feea87777ce1, type: 2}
+  - path: Art/Cards/card_slot_left
+    asset: {fileID: 2800000, guid: e27d06cd55f8b524789bbb929b020f4b, type: 3}
+  - path: Art/Cards/card_slot_right
+    asset: {fileID: 2800000, guid: b95a3fb0e939d61499d0d892bff22a13, type: 3}
+  - path: Art/Cards/card_slot_mycologist_combine
+    asset: {fileID: 2800000, guid: 7e29be47c304e0d419920375371a685e, type: 3}
+  - path: Art/Cards/card_slot_tech
+    asset: {fileID: 2800000, guid: cc7df944393e99445822c4abaeda38e7, type: 3}
+  - path: Prefabs/Environment/TableEffects/LightningBolt
+    asset: {fileID: 1215440328889823, guid: bc8129e7e458f1848bf6a449b283d3a0, type: 2}
+  - path: Art/Cards/Part 3 Portraits/portrait_mycobot
+    asset: {fileID: 21300000, guid: 79f6f0fbe1b1bc447b85335d20454d29, type: 2}

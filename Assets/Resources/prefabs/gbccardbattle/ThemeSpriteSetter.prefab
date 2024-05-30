@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1068900545557192
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4118586907321359}
+  - component: {fileID: 114280626551929916}
+  m_Layer: 0
+  m_Name: ThemeSpriteSetter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4118586907321359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068900545557192}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114280626551929916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068900545557192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0aa5c0a5cd1f9e2f5f057fd056250c0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  themeSpriteSets:
+  - id: 0
+    boardMain: {fileID: 21300000, guid: 91814a2e7f3419f4abe994d05c2b54a0, type: 2}
+    boardFill: {fileID: 21300000, guid: c75d45b33ab67294c9dc2ce92f40b8a1, type: 2}
+    slotDefault: {fileID: 21300000, guid: f891e03cfeff0f749826f5a118f7134c, type: 2}
+    slotHighlight: {fileID: 21300000, guid: e898da2ba585fba4eb0b4633fff1fe98, type: 2}
+    flipPlayerSlotSpriteY: 1
+    flipPlayerSlotSpriteX: 0
+    queueSlotDefault: {fileID: 21300000, guid: 11b4595a65209d742b1392dccb09b79f, type: 2}
+    queueSlotHighlight: {fileID: 21300000, guid: e588ed1e3dbff0e42a08c738180f86ab, type: 2}
+    combatBellNonInteractable: {fileID: 21300000, guid: 6a86d61454df1024dbffb4b6e82c5cb3, type: 2}
+    combatBellDefault: {fileID: 21300000, guid: 291b88d1d8a6577479bd6aa4f32b5b49, type: 2}
+    combatBellHighlighted: {fileID: 21300000, guid: fde8bc124705456409dde90ee6b6742b, type: 2}
+    combatBellPressed: {fileID: 21300000, guid: 65a9f52ef3e42fa49835081b174eb4e0, type: 2}
+    spawnObjects:
+    - {fileID: 1079626285479165, guid: 9cf157332ccbbc048931d4047d928f42, type: 2}
+    specificSlotSprites: []
+  - id: 1
+    boardMain: {fileID: 21300000, guid: ca3e9a47b9346704fb1ed45afd58f035, type: 2}
+    boardFill: {fileID: 21300000, guid: 38c4bf01b06eb654a88cfe0d63194b67, type: 2}
+    slotDefault: {fileID: 21300000, guid: 9fca568202727a04bbad9f3223e92356, type: 2}
+    slotHighlight: {fileID: 21300000, guid: b9ac65370be1b0f4db2e920af51755db, type: 2}
+    flipPlayerSlotSpriteY: 0
+    flipPlayerSlotSpriteX: 0
+    queueSlotDefault: {fileID: 21300000, guid: 7a59208f0f8536d4e9bce041d93f83c9, type: 2}
+    queueSlotHighlight: {fileID: 21300000, guid: 2fd55ad2187fb6f43aa2cc24fd1cf80b, type: 2}
+    combatBellNonInteractable: {fileID: 21300000, guid: d1cbb286b65d4144696b2984195ac714, type: 2}
+    combatBellDefault: {fileID: 21300000, guid: 87e71d49ba50bfd448cf5837b9f011ea, type: 2}
+    combatBellHighlighted: {fileID: 21300000, guid: 1ec428ae6dd92b441bc484da45403927, type: 2}
+    combatBellPressed: {fileID: 21300000, guid: f9617bcbedd13e44cbed535c02206f95, type: 2}
+    spawnObjects:
+    - {fileID: 1458263302722531, guid: a12c29f9615f6434888fd19d28a664b2, type: 2}
+    specificSlotSprites: []
+  - id: 3
+    boardMain: {fileID: 21300000, guid: c0a53a6ad8f3740449fc53f99f4ca99a, type: 2}
+    boardFill: {fileID: 21300000, guid: 0168a5b7858375f4b93f4678b6ea0e95, type: 2}
+    slotDefault: {fileID: 21300000, guid: 1a43cbf3e3aa25947a239f3c7f711066, type: 2}
+    slotHighlight: {fileID: 21300000, guid: 94d606ccd1d48c24f8f14965e29c9d87, type: 2}
+    flipPlayerSlotSpriteY: 0
+    flipPlayerSlotSpriteX: 0
+    queueSlotDefault: {fileID: 21300000, guid: 38aa3577aeb96384ca7bf775bc5ee61d, type: 2}
+    queueSlotHighlight: {fileID: 21300000, guid: 80f3bfbeb02bbe2408f87e1be4454e5b, type: 2}
+    combatBellNonInteractable: {fileID: 21300000, guid: 1800264802fd38c428dc642b3eba67c4, type: 2}
+    combatBellDefault: {fileID: 21300000, guid: 82cea6b9380612541a4ad5e53a1e613b, type: 2}
+    combatBellHighlighted: {fileID: 21300000, guid: 233b4066ce2702444b7fa75f98f6d786, type: 2}
+    combatBellPressed: {fileID: 21300000, guid: fbd21a41937f4294b80d61a3270685af, type: 2}
+    spawnObjects:
+    - {fileID: 1787155270121460, guid: 65b57a55d23aa054b8f0bb06028712ed, type: 2}
+    - {fileID: 1535174408209134, guid: 1f0037f35fc9a014e9bd6b98df59f1fc, type: 2}
+    specificSlotSprites: []
+  - id: 2
+    boardMain: {fileID: 21300000, guid: 97894edb42075044d82a82a02fe79282, type: 2}
+    boardFill: {fileID: 21300000, guid: 9d6166b1865507846b9b20be2f111698, type: 2}
+    slotDefault: {fileID: 21300000, guid: f2e593d2cf600634d832d0c065d6e50b, type: 2}
+    slotHighlight: {fileID: 21300000, guid: 8f64fe8412c87784b9069c57772d0e60, type: 2}
+    flipPlayerSlotSpriteY: 0
+    flipPlayerSlotSpriteX: 0
+    queueSlotDefault: {fileID: 21300000, guid: 3de124c45f94d204fb82b6852323295d, type: 2}
+    queueSlotHighlight: {fileID: 21300000, guid: 38b8031f5c0a2dd44adcf932cb8cef37, type: 2}
+    combatBellNonInteractable: {fileID: 21300000, guid: a7de09ea8d8aa0645adc2f51d0a097db, type: 2}
+    combatBellDefault: {fileID: 21300000, guid: 26b4cef58a559304d9deeba29855bca6, type: 2}
+    combatBellHighlighted: {fileID: 21300000, guid: 528be7972bc3c314b99a519dcab97d29, type: 2}
+    combatBellPressed: {fileID: 21300000, guid: 55e32bd572a9bcd439b5706d20d8fff4, type: 2}
+    spawnObjects: []
+    specificSlotSprites: []
+  - id: 4
+    boardMain: {fileID: 21300000, guid: 31d792fe44688dd46b340b95849acf70, type: 2}
+    boardFill: {fileID: 21300000, guid: 9d6166b1865507846b9b20be2f111698, type: 2}
+    slotDefault: {fileID: 21300000, guid: d3acbc7b70006834d8363aedb968abcb, type: 2}
+    slotHighlight: {fileID: 21300000, guid: abecba983e5061b46a657aafb34c7d4c, type: 2}
+    flipPlayerSlotSpriteY: 0
+    flipPlayerSlotSpriteX: 0
+    queueSlotDefault: {fileID: 21300000, guid: 3de124c45f94d204fb82b6852323295d, type: 2}
+    queueSlotHighlight: {fileID: 21300000, guid: 38b8031f5c0a2dd44adcf932cb8cef37, type: 2}
+    combatBellNonInteractable: {fileID: 21300000, guid: a7de09ea8d8aa0645adc2f51d0a097db, type: 2}
+    combatBellDefault: {fileID: 21300000, guid: 26b4cef58a559304d9deeba29855bca6, type: 2}
+    combatBellHighlighted: {fileID: 21300000, guid: 528be7972bc3c314b99a519dcab97d29, type: 2}
+    combatBellPressed: {fileID: 21300000, guid: 55e32bd572a9bcd439b5706d20d8fff4, type: 2}
+    spawnObjects:
+    - {fileID: 1153094588901415, guid: e7879d7130ae6b84d8d86e348a5e5fe6, type: 2}
+    - {fileID: 1197926750102064, guid: ef7dd1734c49d894f865ddd488b46992, type: 2}
+    specificSlotSprites:
+    - playerSlot: 1
+      index: 0
+      slotDefault: {fileID: 21300000, guid: efc2c1d60eaefb246ada421a1c105c31, type: 2}
+      slotHighlight: {fileID: 21300000, guid: a64a06e930ee21644bc1f745b0dcb124, type: 2}
+    - playerSlot: 1
+      index: 1
+      slotDefault: {fileID: 21300000, guid: 75a173643b9a95449b62eaf632785574, type: 2}
+      slotHighlight: {fileID: 21300000, guid: be7569ea41625b2428dc64310055e991, type: 2}
+    - playerSlot: 1
+      index: 2
+      slotDefault: {fileID: 21300000, guid: 75a173643b9a95449b62eaf632785574, type: 2}
+      slotHighlight: {fileID: 21300000, guid: be7569ea41625b2428dc64310055e991, type: 2}
+    - playerSlot: 1
+      index: 3
+      slotDefault: {fileID: 21300000, guid: 7c9f784fe65145e4892fc8826ca4fb32, type: 2}
+      slotHighlight: {fileID: 21300000, guid: 12b23805c9cb86c4facae4c772a04b03, type: 2}
+    - playerSlot: 0
+      index: 0
+      slotDefault: {fileID: 21300000, guid: 95cfe905eca379045a691dced3b3db29, type: 2}
+      slotHighlight: {fileID: 21300000, guid: ef188ecc79be58a4089d142120339e78, type: 2}
+    - playerSlot: 0
+      index: 3
+      slotDefault: {fileID: 21300000, guid: f1fda3c2f03f3a34db0a5c110d41a84f, type: 2}
+      slotHighlight: {fileID: 21300000, guid: 58350d48f5f228e4ab715356a3947d3a, type: 2}
+  - id: 5
+    boardMain: {fileID: 21300000, guid: 70768cfd45da62c4da00b2e133fd8ad2, type: 2}
+    boardFill: {fileID: 21300000, guid: 8008f7e3a5f3a1144a5495f306d2d633, type: 2}
+    slotDefault: {fileID: 21300000, guid: 5384bfa12f8346d4fbbfd8865331ef8a, type: 2}
+    slotHighlight: {fileID: 21300000, guid: 7051829a88eb0a242af3ab409b1b328d, type: 2}
+    flipPlayerSlotSpriteY: 0
+    flipPlayerSlotSpriteX: 0
+    queueSlotDefault: {fileID: 21300000, guid: b665ffcd515fc314dabc45661c59a4bf, type: 2}
+    queueSlotHighlight: {fileID: 21300000, guid: 75332f462a3f4934d9b7cc9cdb66f522, type: 2}
+    combatBellNonInteractable: {fileID: 21300000, guid: fffee1262ae6c104097b90f739141428, type: 2}
+    combatBellDefault: {fileID: 21300000, guid: 48245b486b37f2a49bbc25f17d7d3a8f, type: 2}
+    combatBellHighlighted: {fileID: 21300000, guid: 12bddf69413cca74d853f7593b7f558c, type: 2}
+    combatBellPressed: {fileID: 21300000, guid: 1b1f3c5f8bd22cf40aeff268a9044f14, type: 2}
+    spawnObjects: []
+    specificSlotSprites: []
+  boardMain: {fileID: 0}
+  boardFillLeft: {fileID: 0}
+  boardFillRight: {fileID: 0}
+  playerSlots: []
+  opponentSlots: []
+  queueSlots: []
+  combatBell: {fileID: 0}
+  debugThemeIndex: -1

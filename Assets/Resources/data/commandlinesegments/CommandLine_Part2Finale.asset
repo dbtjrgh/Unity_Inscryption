@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6425baa3f29dfa1659123a59c22dbe91, type: 3}
+  m_Name: CommandLine_Part2Finale
+  m_EditorClassIdentifier:
+  speedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.01626788
+      value: 0.08023354
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.11750052
+      value: 0.09383913
+      inSlope: -0.654108
+      outSlope: -0.654108
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.301017
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.118017405
+      value: 0.040078446
+      inSlope: -0.5757611
+      outSlope: -0.5757611
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.33817655
+      value: 0.017872438
+      inSlope: -0.07726712
+      outSlope: -0.07726712
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5906775
+      value: 0.036461875
+      inSlope: -0.013725563
+      outSlope: -0.013725563
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.8553629
+      value: 0.0112827625
+      inSlope: -0.1323169
+      outSlope: -0.1323169
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9895231
+      value: 0.0029774513
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  lines:
+  - text: 'ERROR: CORRUPTED CHUNK'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 25
+  - text: 'ERROR: 100010001110100100010010001'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'ERROR: NULL CORRUPTED FILES DETECTED'
+    uniqueColor: 0
+    colorOverride: {r: 0.61960787, g: 0.14901961, b: 0.18823531, a: 1}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'Initializing subroutine: GameFuna.Inscryption.Error21Fix()'
+    uniqueColor: 0
+    colorOverride: {r: 0.61960787, g: 0.14901961, b: 0.18823531, a: 1}
+    percentProgress: 1
+    numPercentChunks: 89
+  - text: Wiping unexpected data
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 80
+  - text: 'ERROR: UNABLE TO WIPE UNEXPECTED DATA'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: Restoring backup
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 99
+  - text: 'BACKUP FOUND: P03.Factory'
+    uniqueColor: 0
+    colorOverride: {r: 0.61960787, g: 0.14901961, b: 0.18823531, a: 1}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'Initializing subroutine: NewSaveFile()'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 5
+  - text: Creating new save file
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 79
+  - text: New save file created
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: Purging deck data
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 31
+  - text: Purging collection data
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 22
+  - text: Check /OLD_DATA/ key
+    uniqueColor: 0
+    colorOverride: {r: 0.08235294, g: 0.16470589, b: 0.23529413, a: 1}
+    percentProgress: 1
+    numPercentChunks: 11
+  - text: /OLD_DATA/ key denied
+    uniqueColor: 0
+    colorOverride: {r: 0.61960787, g: 0.14901961, b: 0.18823531, a: 1}
+    percentProgress: 0
+    numPercentChunks: 0
+  - text: 'Loading scene: P03.Factory'
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 1
+    numPercentChunks: 64
+  - text: Scene loaded
+    uniqueColor: 0
+    colorOverride: {r: 0, g: 0, b: 0, a: 0}
+    percentProgress: 0
+    numPercentChunks: 0

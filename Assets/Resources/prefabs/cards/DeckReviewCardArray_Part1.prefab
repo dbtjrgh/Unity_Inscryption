@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1226451688855461
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4589160749387661}
+  - component: {fileID: 114871808301861847}
+  - component: {fileID: 114474125574061206}
+  m_Layer: 0
+  m_Name: DeckReviewCardArray_Part1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4589160749387661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226451688855461}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.31, y: 5.01, z: 1.36}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114871808301861847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226451688855461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67050cca17030ea8579c6025bb8ad102, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cardArray: {fileID: 114474125574061206}
+--- !u!114 &114474125574061206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226451688855461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4634a4a18dc3a8f1c5b9ac1cbc0b4de, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  selectableCardPrefab: {fileID: 1856373483674246, guid: ec7447ac9714c964abaee3365889aafb, type: 2}
+  maxRows: 2
+  maxCardsPerRow: 9
+  rowSpacing: -2
+  arrayWidth: 7
+  leftAnchor: -3.5
+  curveFactor: 0
+  minCardsForTilt: 6
+  cardsTilt: 0.05
+  tweenDurationModifier: 0.5
+  inspectedCardOffset: {x: 0, y: -0.03, z: -0.2}
+  offscreenPositionOffset: {x: 0.5, y: 1, z: 2}

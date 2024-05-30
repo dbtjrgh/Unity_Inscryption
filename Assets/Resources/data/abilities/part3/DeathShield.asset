@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e5f394c6e192ad3bcf7b9ea092457f, type: 3}
+  m_Name: DeathShield
+  m_EditorClassIdentifier:
+  ability: 54
+  passive: 1
+  activated: 0
+  metaCategories:
+  - 2
+  - 3
+  - 4
+  - 7
+  - 1
+  - 8
+  powerLevel: 4
+  opponentUsable: 1
+  canStack: 0
+  conduit: 0
+  conduitCell: 0
+  flipYIfOpponent: 0
+  customFlippedIcon: 0
+  pixelIcon: {fileID: 21300000, guid: 0573ad5012f68ac4da086fedb545ad10, type: 2}
+  customFlippedPixelIcon: {fileID: 0}
+  hasColorOverride: 0
+  colorOverride: {r: 0, g: 0, b: 0, a: 0}
+  mesh3D: {fileID: 4300000, guid: 9f86d423587d4954c96756be6419e8e6, type: 2}
+  abilityLearnedDialogue:
+    lines: []
+  triggerText:
+  keywordAbility: 0
+  rulebookName: Armored
+  rulebookDescription: The first time [creature] would take damage, prevent that damage.

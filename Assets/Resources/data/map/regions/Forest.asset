@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80cfe7048701081ed4ae9b482d5b496f, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier:
+  terrainCards:
+  - {fileID: 11400000, guid: 42a9fee93a22c1d43b2be82c3e359101, type: 2}
+  - {fileID: 11400000, guid: 93d5388b6bb8cf249a3bc2740a518514, type: 2}
+  - {fileID: 11400000, guid: e54dd2fe279502841aea54f76b528ed7, type: 2}
+  consumableItems:
+  - {fileID: 11400000, guid: ec1212db3253b8c438291612c54407f8, type: 2}
+  encounters:
+  - {fileID: 11400000, guid: 5da02bc20e172ec47a81292f5a462f94, type: 2}
+  - {fileID: 11400000, guid: f2dc434a322829d43bfc3e5be9e406c2, type: 2}
+  - {fileID: 11400000, guid: 975007d870f353e4a877fbe50aa19daa, type: 2}
+  - {fileID: 11400000, guid: 493794634a10a044e849ed9ba73ba5cb, type: 2}
+  - {fileID: 11400000, guid: d3270b5de03b70b4d87ea8f2e9665f10, type: 2}
+  bosses:
+  - 3
+  likelyCards: []
+  dominantTribes:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  predefinedNodes: {fileID: 0}
+  bossPrepEncounter: {fileID: 0}
+  bossPrepCondition:
+    metIfEventCompleted: 0
+    storyEvent: 0
+  scarceScenery:
+  - data: {fileID: 11400000, guid: 889b84a2cbfc38b4d8e4a5c999a08fea, type: 2}
+    minDensity: 0.1
+    minInstances: 5
+    maxInstances: 15
+  fillerScenery:
+  - data: {fileID: 11400000, guid: 3b91a4e5af106f74481c16c7847c90cd, type: 2}
+  predefinedScenery: {fileID: 0}
+  ambientLoopId:
+  silenceCabinAmbience: 0
+  boardLightColor: {r: 1, g: 0.57254905, b: 0.14901961, a: 1}
+  cardsLightColor: {r: 1, g: 0.57254905, b: 0.14901961, a: 1}
+  dustParticlesDisabled: 0
+  fogEnabled: 0
+  fogProfile: {fileID: 0}
+  fogAlpha: 0
+  mapAlbedo: {fileID: 2800000, guid: fa47ee35d141df541aadafaf5e8ea30c, type: 3}
+  mapEmission: {fileID: 0}
+  mapEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  mapParticlesPrefabs: []

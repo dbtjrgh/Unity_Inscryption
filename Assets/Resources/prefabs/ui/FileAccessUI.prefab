@@ -1,0 +1,1457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1844591248910399
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224401538948402224}
+  - component: {fileID: 114043501012705690}
+  - component: {fileID: 95056790673932082}
+  m_Layer: 5
+  m_Name: FileAccessUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1041974070200590
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224425594926287675}
+  - component: {fileID: 222864098115467909}
+  m_Layer: 5
+  m_Name: FileBrowserPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1182681364484046
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224000731575213796}
+  - component: {fileID: 222339751190681543}
+  - component: {fileID: 114137456924448197}
+  m_Layer: 21
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1694342977388759
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224653401775139186}
+  - component: {fileID: 222581416851317967}
+  - component: {fileID: 114046358385605477}
+  m_Layer: 5
+  m_Name: TopContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1976013269715872
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224761905766987220}
+  - component: {fileID: 222736290321121046}
+  - component: {fileID: 114781353754707370}
+  - component: {fileID: 114714528374217453}
+  - component: {fileID: 114966701800422745}
+  - component: {fileID: 114244368698061799}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1537363324926329
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224479138482848246}
+  - component: {fileID: 222071533065531850}
+  - component: {fileID: 114347171639345554}
+  m_Layer: 5
+  m_Name: MainContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1189327148673453
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224141326371344581}
+  - component: {fileID: 222171535251549181}
+  - component: {fileID: 114443516732471733}
+  - component: {fileID: 114044548276336677}
+  - component: {fileID: 114640419227949188}
+  - component: {fileID: 114739749835137697}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1849689315997765
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224542934075469370}
+  - component: {fileID: 222074995559887645}
+  - component: {fileID: 114059313499738536}
+  m_Layer: 21
+  m_Name: Button_Yes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1122734006668372
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4598747154476430}
+  m_Layer: 0
+  m_Name: ButtonVisuals_Yes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1029038826420975
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224313306133807708}
+  - component: {fileID: 222669703694731418}
+  - component: {fileID: 114439434482477590}
+  m_Layer: 21
+  m_Name: Border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1071929517369585
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224940517242566779}
+  - component: {fileID: 222104314487603663}
+  - component: {fileID: 114127770047558808}
+  m_Layer: 21
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1486114675040982
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224832327556825648}
+  - component: {fileID: 222021715925786078}
+  - component: {fileID: 114469757623970116}
+  - component: {fileID: 114838199923971257}
+  - component: {fileID: 114884653458950485}
+  - component: {fileID: 114597466213182268}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1307001751517944
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224933558450152715}
+  - component: {fileID: 222272449859674400}
+  - component: {fileID: 114985710218449341}
+  - component: {fileID: 114905423531248822}
+  m_Layer: 21
+  m_Name: Button_No
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1987965140745746
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4617824956819841}
+  m_Layer: 0
+  m_Name: ButtonVisuals_No
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1206636702841846
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224031872229802970}
+  - component: {fileID: 222061567882342280}
+  - component: {fileID: 114694831559631697}
+  m_Layer: 21
+  m_Name: Border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1195617601226061
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224308703340405024}
+  - component: {fileID: 222545185538130721}
+  - component: {fileID: 114950022881559314}
+  m_Layer: 21
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1544023447417542
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 224320406067653271}
+  - component: {fileID: 222580962875473487}
+  - component: {fileID: 114816160106320985}
+  - component: {fileID: 114455837214829772}
+  - component: {fileID: 114942152715988299}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224401538948402224
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844591248910399}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.525, y: 0.525, z: 1}
+  m_Children:
+  - {fileID: 224425594926287675}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &114043501012705690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844591248910399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd2ddf93183d64ec8405d7e84e4cb98, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  yesButton: {fileID: 114059313499738536}
+  yesVisualsParent: {fileID: 4598747154476430}
+  noButton: {fileID: 114985710218449341}
+  noVisualsParent: {fileID: 4617824956819841}
+--- !u!95 &95056790673932082
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844591248910399}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 680607c213370644680448f9e57c2608, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!224 &224425594926287675
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041974070200590}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224000731575213796}
+  - {fileID: 224653401775139186}
+  - {fileID: 224479138482848246}
+  m_Father: {fileID: 224401538948402224}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2000, y: 600}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222864098115467909
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041974070200590}
+  m_CullTransparentMesh: 0
+--- !u!224 &224000731575213796
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182681364484046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224425594926287675}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222339751190681543
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182681364484046}
+  m_CullTransparentMesh: 0
+--- !u!114 &114137456924448197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182681364484046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7568628, g: 0.81568635, b: 0.5019608, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c4db084d7fd3c294eb5b7580891b7003, type: 2}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &224653401775139186
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694342977388759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1000, y: 300, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224761905766987220}
+  m_Father: {fileID: 224425594926287675}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &222581416851317967
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694342977388759}
+  m_CullTransparentMesh: 0
+--- !u!114 &114046358385605477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694342977388759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b3caa894e8e7bb242a2fd4d3a9b00e94, type: 2}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &224761905766987220
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976013269715872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25, y: -49.999966, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.32, z: 0.21}
+  m_Children: []
+  m_Father: {fileID: 224653401775139186}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 25, y: 3.4332275E-05}
+  m_SizeDelta: {x: 6487.507, y: 312.5}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!222 &222736290321121046
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976013269715872}
+  m_CullTransparentMesh: 0
+--- !u!114 &114781353754707370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976013269715872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7568628, g: 0.81568635, b: 0.5019608, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 3e3e1a189b604a24ea303a42b5d7e6c8, type: 3}
+    m_FontSize: 250
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 300
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Permissions Request
+--- !u!114 &114714528374217453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976013269715872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352f1a1f025952571b4d1e8e42942e8d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _TimeSource: 0
+  _OnEnable_PlayAnim: 0
+  _AnimationSlots:
+  - _LocalSerializedData: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<SE_Animation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Name=\"Jitter\" _Playback=\"PingPong\" _Backwards=\"false\" _PlaybackTimes=\"-1\" _ExtraTimeFinal=\"0\" _ExtraTimePerLoop=\"0\">\r\n  <_Sequences>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Alpha\">\r\n      <_Name>Jitter Alpha</_Name>\r\n     <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.25</_Duration>\r\n     <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>2</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>0.95</_From>\r\n      <_FromRandom>0</_FromRandom>\r\n      <_To>1</_To>\r\n     <_ToRandom>0</_ToRandom>\r\n      <_AnimBlend_From>Replace</_AnimBlend_From>\r\n     <_AnimBlend_To>Replace</_AnimBlend_To>\r\n      <_OnFinish_SetAlphaToFinalValue>false</_OnFinish_SetAlphaToFinalValue>\r\n   </SE_AnimSequence>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Scale\">\r\n     <_Name>Jitter Scale</_Name>\r\n      <_StartType>OnAnimStart</_StartType>\r\n     <_StartDelay>0</_StartDelay>\r\n      <_Separation>0</_Separation>\r\n     <_RandomStart>1</_RandomStart>\r\n      <_DurationType>TotalTime</_DurationType>\r\n     <_Duration>0.25</_Duration>\r\n      <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n     <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n      <_Playback>Loop</_Playback>\r\n     <_Backwards>false</_Backwards>\r\n      <_PlaybackTimes>2</_PlaybackTimes>\r\n     <_EasingCurve>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>false</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0.05</x>\r\n        <y>0.05</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n     <_Pivot>\r\n        <x>0.5</x>\r\n        <y>0.5</y>\r\n        <z>0</z>\r\n     </_Pivot>\r\n      <_PivotType>Relative_Letter</_PivotType>\r\n    </SE_AnimSequence>\r\n   <SE_AnimSequence xsi:type=\"SE_AnimSequence_Position\">\r\n      <_Name />\r\n      <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.1</_Duration>\r\n     <_DurationRandom_Slower>1</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>1</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>5</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>-0.047</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0</x>\r\n        <y>0.047</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n   </SE_AnimSequence>\r\n  </_Sequences>\r\n</SE_Animation>"
+    _Preset: {fileID: 11400000, guid: fc4b6d727d7de1d41b0e03bbe7fe8838, type: 2}
+  _OnAnimation_Finished:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114966701800422745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976013269715872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7fcd72b9741a10f3a534f464a5f121, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  forceToUpper: 1
+  untranslatedPrefix:
+  untranslatedSuffix:
+--- !u!114 &114244368698061799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976013269715872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225763d08bc2f419135ba9b4011fd6d2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  changeFontTiming: 0
+  copyMaterialProperties: 0
+  englishFontSize: 250
+--- !u!224 &224479138482848246
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537363324926329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1000, y: -300, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224141326371344581}
+  - {fileID: 224542934075469370}
+  - {fileID: 224933558450152715}
+  m_Father: {fileID: 224425594926287675}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 488.9}
+  m_Pivot: {x: 0, y: 0}
+--- !u!222 &222071533065531850
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537363324926329}
+  m_CullTransparentMesh: 0
+--- !u!114 &114347171639345554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537363324926329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b3caa894e8e7bb242a2fd4d3a9b00e94, type: 2}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &224141326371344581
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189327148673453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1000, y: 340.05, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.32, z: 0.21}
+  m_Children: []
+  m_Father: {fileID: 224479138482848246}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 95.6}
+  m_SizeDelta: {x: 6442, y: 770.16693}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222171535251549181
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189327148673453}
+  m_CullTransparentMesh: 0
+--- !u!114 &114443516732471733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189327148673453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7568628, g: 0.81568635, b: 0.5019608, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 3e3e1a189b604a24ea303a42b5d7e6c8, type: 3}
+    m_FontSize: 250
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 300
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: GRANT INSCRYPTION.EXE PERMISSION TO ACCESS YOUR HARD DRIVE?
+--- !u!114 &114044548276336677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189327148673453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352f1a1f025952571b4d1e8e42942e8d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _TimeSource: 0
+  _OnEnable_PlayAnim: 0
+  _AnimationSlots:
+  - _LocalSerializedData: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<SE_Animation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Name=\"Jitter\" _Playback=\"PingPong\" _Backwards=\"false\" _PlaybackTimes=\"-1\" _ExtraTimeFinal=\"0\" _ExtraTimePerLoop=\"0\">\r\n  <_Sequences>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Alpha\">\r\n      <_Name>Jitter Alpha</_Name>\r\n     <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.25</_Duration>\r\n     <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>2</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>0.95</_From>\r\n      <_FromRandom>0</_FromRandom>\r\n      <_To>1</_To>\r\n     <_ToRandom>0</_ToRandom>\r\n      <_AnimBlend_From>Replace</_AnimBlend_From>\r\n     <_AnimBlend_To>Replace</_AnimBlend_To>\r\n      <_OnFinish_SetAlphaToFinalValue>false</_OnFinish_SetAlphaToFinalValue>\r\n   </SE_AnimSequence>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Scale\">\r\n     <_Name>Jitter Scale</_Name>\r\n      <_StartType>OnAnimStart</_StartType>\r\n     <_StartDelay>0</_StartDelay>\r\n      <_Separation>0</_Separation>\r\n     <_RandomStart>1</_RandomStart>\r\n      <_DurationType>TotalTime</_DurationType>\r\n     <_Duration>0.25</_Duration>\r\n      <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n     <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n      <_Playback>Loop</_Playback>\r\n     <_Backwards>false</_Backwards>\r\n      <_PlaybackTimes>2</_PlaybackTimes>\r\n     <_EasingCurve>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>false</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0.05</x>\r\n        <y>0.05</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n     <_Pivot>\r\n        <x>0.5</x>\r\n        <y>0.5</y>\r\n        <z>0</z>\r\n     </_Pivot>\r\n      <_PivotType>Relative_Letter</_PivotType>\r\n    </SE_AnimSequence>\r\n   <SE_AnimSequence xsi:type=\"SE_AnimSequence_Position\">\r\n      <_Name />\r\n      <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.1</_Duration>\r\n     <_DurationRandom_Slower>1</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>1</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>5</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>-0.047</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0</x>\r\n        <y>0.047</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n   </SE_AnimSequence>\r\n  </_Sequences>\r\n</SE_Animation>"
+    _Preset: {fileID: 11400000, guid: fc4b6d727d7de1d41b0e03bbe7fe8838, type: 2}
+  _OnAnimation_Finished:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114640419227949188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189327148673453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7fcd72b9741a10f3a534f464a5f121, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  forceToUpper: 1
+  untranslatedPrefix:
+  untranslatedSuffix:
+--- !u!114 &114739749835137697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189327148673453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225763d08bc2f419135ba9b4011fd6d2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  changeFontTiming: 0
+  copyMaterialProperties: 0
+  englishFontSize: 250
+--- !u!224 &224542934075469370
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849689315997765}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 600, y: 134.45, z: 0}
+  m_LocalScale: {x: 1.9047619, y: 1.9047619, z: 1}
+  m_Children:
+  - {fileID: 4598747154476430}
+  m_Father: {fileID: 224479138482848246}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -400, y: -110}
+  m_SizeDelta: {x: 280, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222074995559887645
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849689315997765}
+  m_CullTransparentMesh: 0
+--- !u!114 &114059313499738536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849689315997765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114127770047558808}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114043501012705690}
+        m_MethodName: OnYesPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &4598747154476430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122734006668372}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224313306133807708}
+  - {fileID: 224940517242566779}
+  - {fileID: 224832327556825648}
+  m_Father: {fileID: 224542934075469370}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &224313306133807708
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029038826420975}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4598747154476430}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 290, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222669703694731418
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029038826420975}
+  m_CullTransparentMesh: 0
+--- !u!114 &114439434482477590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029038826420975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7568628, g: 0.81568635, b: 0.5019608, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &224940517242566779
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071929517369585}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4598747154476430}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 280, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222104314487603663
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071929517369585}
+  m_CullTransparentMesh: 0
+--- !u!114 &114127770047558808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071929517369585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.08235294, g: 0.16470589, b: 0.23529413, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &224832327556825648
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486114675040982}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalScale: {x: 0.15750003, y: 0.168, z: 0.21}
+  m_Children: []
+  m_Father: {fileID: 4598747154476430}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.4}
+  m_SizeDelta: {x: 1655.4816, y: 346.42798}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222021715925786078
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486114675040982}
+  m_CullTransparentMesh: 0
+--- !u!114 &114469757623970116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486114675040982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7568628, g: 0.81568635, b: 0.5019608, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 3e3e1a189b604a24ea303a42b5d7e6c8, type: 3}
+    m_FontSize: 250
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: YES
+--- !u!114 &114838199923971257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486114675040982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352f1a1f025952571b4d1e8e42942e8d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _TimeSource: 0
+  _OnEnable_PlayAnim: 0
+  _AnimationSlots:
+  - _LocalSerializedData: "<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<SE_Animation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" Name=\"Jitter\" _Playback=\"PingPong\" _Backwards=\"false\" _PlaybackTimes=\"-1\" _ExtraTimeFinal=\"0\" _ExtraTimePerLoop=\"0\">\r\n  <_Sequences>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Alpha\">\r\n      <_Name>Jitter Alpha</_Name>\r\n     <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.25</_Duration>\r\n     <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>2</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>0.95</_From>\r\n      <_FromRandom>0</_FromRandom>\r\n      <_To>1</_To>\r\n     <_ToRandom>0</_ToRandom>\r\n      <_AnimBlend_From>Replace</_AnimBlend_From>\r\n     <_AnimBlend_To>Replace</_AnimBlend_To>\r\n      <_OnFinish_SetAlphaToFinalValue>false</_OnFinish_SetAlphaToFinalValue>\r\n   </SE_AnimSequence>\r\n    <SE_AnimSequence xsi:type=\"SE_AnimSequence_Scale\">\r\n     <_Name>Jitter Scale</_Name>\r\n      <_StartType>OnAnimStart</_StartType>\r\n     <_StartDelay>0</_StartDelay>\r\n      <_Separation>0</_Separation>\r\n     <_RandomStart>1</_RandomStart>\r\n      <_DurationType>TotalTime</_DurationType>\r\n     <_Duration>0.25</_Duration>\r\n      <_DurationRandom_Slower>0</_DurationRandom_Slower>\r\n     <_DurationRandom_Faster>0</_DurationRandom_Faster>\r\n      <_Playback>Loop</_Playback>\r\n     <_Backwards>false</_Backwards>\r\n      <_PlaybackTimes>2</_PlaybackTimes>\r\n     <_EasingCurve>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>false</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0.05</x>\r\n        <y>0.05</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n     <_Pivot>\r\n        <x>0.5</x>\r\n        <y>0.5</y>\r\n        <z>0</z>\r\n     </_Pivot>\r\n      <_PivotType>Relative_Letter</_PivotType>\r\n    </SE_AnimSequence>\r\n   <SE_AnimSequence xsi:type=\"SE_AnimSequence_Position\">\r\n      <_Name />\r\n      <_StartType>OnAnimStart</_StartType>\r\n      <_StartDelay>0</_StartDelay>\r\n     <_Separation>0</_Separation>\r\n      <_RandomStart>1</_RandomStart>\r\n     <_DurationType>TotalTime</_DurationType>\r\n      <_Duration>0.1</_Duration>\r\n     <_DurationRandom_Slower>1</_DurationRandom_Slower>\r\n      <_DurationRandom_Faster>1</_DurationRandom_Faster>\r\n     <_Playback>PingPong</_Playback>\r\n      <_Backwards>false</_Backwards>\r\n     <_PlaybackTimes>5</_PlaybackTimes>\r\n      <_EasingCurve>\r\n        <keys>\r\n         <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurve>\r\n     <_TargetType>Letters</_TargetType>\r\n      <_TargetRangeType>All</_TargetRangeType>\r\n     <_TargetRangeStart>0</_TargetRangeStart>\r\n      <_TargetRangeAmount>0</_TargetRangeAmount>\r\n     <_InitAllElements>false</_InitAllElements>\r\n      <_Enabled>true</_Enabled>\r\n     <_From>\r\n        <x>0</x>\r\n        <y>-0.047</y>\r\n        <z>0</z>\r\n     </_From>\r\n      <_To>\r\n        <x>0</x>\r\n        <y>0.047</y>\r\n       <z>0</z>\r\n      </_To>\r\n      <_FromRandom>\r\n        <x>0</x>\r\n       <y>0</y>\r\n        <z>0</z>\r\n      </_FromRandom>\r\n      <_ToRandom>\r\n       <x>0</x>\r\n        <y>0</y>\r\n        <z>0</z>\r\n      </_ToRandom>\r\n     <_AnimBlend_From>Offset</_AnimBlend_From>\r\n      <_AnimBlend_To>Offset</_AnimBlend_To>\r\n     <_ApplyX>true</_ApplyX>\r\n      <_ApplyY>true</_ApplyY>\r\n      <_ApplyZ>true</_ApplyZ>\r\n     <_UseAxisEasingCurves>false</_UseAxisEasingCurves>\r\n      <_EasingCurveY>\r\n       <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n            <value>0</value>\r\n           <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveY>\r\n     <_EasingCurveZ>\r\n        <keys>\r\n          <Keyframe>\r\n            <time>0</time>\r\n           <value>0</value>\r\n            <inTangent>0</inTangent>\r\n            <outTangent>0</outTangent>\r\n           <inWeight>0</inWeight>\r\n            <outWeight>0</outWeight>\r\n           <weightedMode>None</weightedMode>\r\n          </Keyframe>\r\n          <Keyframe>\r\n           <time>1</time>\r\n            <value>1</value>\r\n            <inTangent>0</inTangent>\r\n           <outTangent>0</outTangent>\r\n            <inWeight>0</inWeight>\r\n           <outWeight>0</outWeight>\r\n            <weightedMode>None</weightedMode>\r\n         </Keyframe>\r\n        </keys>\r\n        <preWrapMode>ClampForever</preWrapMode>\r\n       <postWrapMode>ClampForever</postWrapMode>\r\n      </_EasingCurveZ>\r\n   </SE_AnimSequence>\r\n  </_Sequences>\r\n</SE_Animation>"
+    _Preset: {fileID: 11400000, guid: fc4b6d727d7de1d41b0e03bbe7fe8838, type: 2}
+  _OnAnimation_Finished:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &114884653458950485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486114675040982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7fcd72b9741a10f3a534f464a5f121, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  forceToUpper: 1
+  untranslatedPrefix:
+  untranslatedSuffix:
+--- !u!114 &114597466213182268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486114675040982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225763d08bc2f419135ba9b4011fd6d2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  changeFontTiming: 0
+  copyMaterialProperties: 0
+  englishFontSize: 250
+--- !u!224 &224933558450152715
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307001751517944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1400, y: 134.45, z: 0}
+  m_LocalScale: {x: 1.9047619, y: 1.9047619, z: 1}
+  m_Children:
+  - {fileID: 4617824956819841}
+  m_Father: {fileID: 224479138482848246}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 400, y: -110}
+  m_SizeDelta: {x: 280, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222272449859674400
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307001751517944}
+  m_CullTransparentMesh: 0
+--- !u!114 &114985710218449341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307001751517944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114127770047558808}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114043501012705690}
+        m_MethodName: OnNoPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &114905423531248822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307001751517944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114043501012705690}
+          m_MethodName: OnCursorEnterNo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument:
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114043501012705690}
+          m_MethodName: OnCursorExitNo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument:
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!4 &4617824956819841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987965140745746}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224031872229802970}
+  - {fileID: 224308703340405024}
+  - {fileID: 224320406067653271}
+  m_Father: {fileID: 224933558450152715}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &224031872229802970
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206636702841846}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4617824956819841}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 290, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222061567882342280
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206636702841846}
+  m_CullTransparentMesh: 0
+--- !u!114 &114694831559631697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206636702841846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.48435253, b: 0.6415094, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &224308703340405024
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195617601226061}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4617824956819841}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 280, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222545185538130721
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195617601226061}
+  m_CullTransparentMesh: 0
+--- !u!114 &114950022881559314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195617601226061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.08235294, g: 0.16470589, b: 0.23529413, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!224 &224320406067653271
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544023447417542}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.2, z: 0}
+  m_LocalScale: {x: 0.15750003, y: 0.168, z: 0.21}
+  m_Children: []
+  m_Father: {fileID: 4617824956819841}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1.2}
+  m_SizeDelta: {x: 1715.4325, y: 318.3255}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &222580962875473487
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544023447417542}
+  m_CullTransparentMesh: 0
+--- !u!114 &114816160106320985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544023447417542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.48435253, b: 0.6415094, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 3e3e1a189b604a24ea303a42b5d7e6c8, type: 3}
+    m_FontSize: 200
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: NO
+--- !u!114 &114455837214829772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544023447417542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7fcd72b9741a10f3a534f464a5f121, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  forceToUpper: 1
+  untranslatedPrefix:
+  untranslatedSuffix:
+--- !u!114 &114942152715988299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544023447417542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225763d08bc2f419135ba9b4011fd6d2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  changeFontTiming: 0
+  copyMaterialProperties: 0
+  englishFontSize: 200

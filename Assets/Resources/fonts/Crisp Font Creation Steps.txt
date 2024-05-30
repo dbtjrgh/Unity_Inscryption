@@ -1,0 +1,17 @@
+1. Set settings of imported .ttf file like so:
+Rendering Mode - Hinted Raster
+Character - Unicode
+Ascent Calc... - Face ascender metric
+Should Round... - True
+Inc. Font Data - True
+
+2. Copy the texture under the font
+
+3. Click gear at top-right of inspector window of font -> Create editable copy
+
+4. Assign texture from step 2 to the material that is created
+
+5. Set texture to Point filtering mode
+
+NOTE!! To fix text y position issue:
+Ascent Calculation Mode: Face bounding box metric

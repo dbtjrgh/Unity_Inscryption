@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e5f394c6e192ad3bcf7b9ea092457f, type: 3}
+  m_Name: ConduitEnergy
+  m_EditorClassIdentifier:
+  ability: 66
+  passive: 0
+  activated: 0
+  metaCategories: []
+  powerLevel: 2
+  opponentUsable: 0
+  canStack: 0
+  conduit: 1
+  conduitCell: 0
+  flipYIfOpponent: 0
+  customFlippedIcon: 0
+  pixelIcon: {fileID: 21300000, guid: ab024a0a8404aa8418d79559d1a92248, type: 2}
+  customFlippedPixelIcon: {fileID: 0}
+  hasColorOverride: 0
+  colorOverride: {r: 0, g: 0, b: 0, a: 0}
+  mesh3D: {fileID: 0}
+  abilityLearnedDialogue:
+    lines: []
+  triggerText: '[creature] keeps your Energy charged.'
+  keywordAbility: 0
+  rulebookName: Energy Conduit
+  rulebookDescription: If [creature] is part of a completed circuit, your Energy never depletes.

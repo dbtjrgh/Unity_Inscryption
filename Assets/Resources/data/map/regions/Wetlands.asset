@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80cfe7048701081ed4ae9b482d5b496f, type: 3}
+  m_Name: Wetlands
+  m_EditorClassIdentifier:
+  terrainCards:
+  - {fileID: 11400000, guid: 93d5388b6bb8cf249a3bc2740a518514, type: 2}
+  consumableItems: []
+  encounters:
+  - {fileID: 11400000, guid: 0454532dd4568714188eccce89469241, type: 2}
+  - {fileID: 11400000, guid: 69a1a3799eaebcc4d88e50d1d450ebb8, type: 2}
+  - {fileID: 11400000, guid: aeb317d1f1b0a93479d6d0a8626ae876, type: 2}
+  - {fileID: 11400000, guid: f11400a520e96d44d97523d96a5b409d, type: 2}
+  - {fileID: 11400000, guid: f75d00d3e7cdd634faf92058476b4685, type: 2}
+  - {fileID: 11400000, guid: 8199d37490ed7764bb17376367bd0364, type: 2}
+  bosses:
+  - 4
+  likelyCards:
+  - {fileID: 11400000, guid: 175e09dd7fb0c8d4083b0aa934f896ea, type: 2}
+  - {fileID: 11400000, guid: 8faf04c34e5fa464dbc127c46ee54854, type: 2}
+  - {fileID: 11400000, guid: dd9d13eda030088489227dfe57043127, type: 2}
+  - {fileID: 11400000, guid: bb50a2e294b1c3748bad7a23dcdf5eab, type: 2}
+  - {fileID: 11400000, guid: 4f12b4ef8c7906b40916f2d6307ed215, type: 2}
+  - {fileID: 11400000, guid: f04bd1166fa86224b91c901328e09e52, type: 2}
+  - {fileID: 11400000, guid: 11e13903ff823034ca967cf7023aa787, type: 2}
+  - {fileID: 11400000, guid: 3bc7f80d9768c354199bf9df0d322242, type: 2}
+  - {fileID: 11400000, guid: 648b23cfc4436b64fa19dd7cf19aca4c, type: 2}
+  - {fileID: 11400000, guid: af357a64dce5b2847b3b50f3af4128a9, type: 2}
+  - {fileID: 11400000, guid: 9555bfacd9377244aa6699b2a97344a8, type: 2}
+  dominantTribes:
+  - 6
+  - 5
+  predefinedNodes: {fileID: 0}
+  bossPrepEncounter: {fileID: 11400000, guid: aeb317d1f1b0a93479d6d0a8626ae876, type: 2}
+  bossPrepCondition:
+    metIfEventCompleted: 0
+    storyEvent: 21
+  scarceScenery:
+  - data: {fileID: 11400000, guid: 13dd6b6e2e66f2a4a865d2d4c614dabc, type: 2}
+    minDensity: 0.1
+    minInstances: 40
+    maxInstances: 50
+  fillerScenery:
+  - data: {fileID: 11400000, guid: 5b5fe432081a8f041bb44d1044b58ac0, type: 2}
+  predefinedScenery: {fileID: 0}
+  ambientLoopId: ambient_wetlands
+  silenceCabinAmbience: 0
+  boardLightColor: {r: 0.58431375, g: 0.7568628, b: 0.4784314, a: 1}
+  cardsLightColor: {r: 0.96470594, g: 0.5058824, b: 0.14509805, a: 1}
+  dustParticlesDisabled: 0
+  fogEnabled: 0
+  fogProfile: {fileID: 0}
+  fogAlpha: 0.3
+  mapAlbedo: {fileID: 2800000, guid: d6fb93f52a5e6fc43bb627e495a07d36, type: 3}
+  mapEmission: {fileID: 0}
+  mapEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  mapParticlesPrefabs:
+  - {fileID: 1026405414215675, guid: d8929cba658a2114ca281fd8e324cc5b, type: 2}

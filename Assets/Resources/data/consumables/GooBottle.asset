@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79984c3e2c8d828ed7b62493a21ef5ff, type: 3}
+  m_Name: GooBottle
+  m_EditorClassIdentifier:
+  prefabId: GooBottleItem
+  pickupSoundId: glass_object_up
+  placedSoundId: glass_object_hit
+  examineSoundId: glass_object_short
+  modelHeight: 1.05
+  powerLevel: 0
+  description: Oh... Oh no. You can't use that.
+  rulebookCategory: 0
+  rulebookName: Failure
+  rulebookDescription: Nothing will happen. This bottle of Goo has no use.
+  rulebookSprite: {fileID: 21300000, guid: d03cef9119348a543bbfd6eb279c49bd, type: 2}
+  regionSpecific: 1
+  notRandomlyGiven: 1

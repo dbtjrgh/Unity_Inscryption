@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e5f394c6e192ad3bcf7b9ea092457f, type: 3}
+  m_Name: GemDependant
+  m_EditorClassIdentifier:
+  ability: 43
+  passive: 0
+  activated: 0
+  metaCategories:
+  - 6
+  powerLevel: -3
+  opponentUsable: 1
+  canStack: 0
+  conduit: 0
+  conduitCell: 0
+  flipYIfOpponent: 0
+  customFlippedIcon: 0
+  pixelIcon: {fileID: 21300000, guid: b07d2f88b26511d48b8592c0f7303621, type: 2}
+  customFlippedPixelIcon: {fileID: 0}
+  hasColorOverride: 0
+  colorOverride: {r: 0, g: 0, b: 0, a: 0}
+  mesh3D: {fileID: 4300000, guid: da84f0015e4490941a5d00fb2673ba26, type: 2}
+  abilityLearnedDialogue:
+    lines: []
+  triggerText: '[creature] requires Mox cards to exist and therefore dies.'
+  keywordAbility: 0
+  rulebookName: Gem Dependant
+  rulebookDescription: If [creature]'s owner controls no Mox cards, [creature] perishes.

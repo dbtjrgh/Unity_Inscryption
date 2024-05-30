@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80cfe7048701081ed4ae9b482d5b496f, type: 3}
+  m_Name: Pirateville
+  m_EditorClassIdentifier:
+  terrainCards: []
+  consumableItems: []
+  encounters: []
+  bosses:
+  - 3
+  likelyCards: []
+  dominantTribes:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  predefinedNodes: {fileID: 11400000, guid: fa5b8acfe4548a848ad719faf9be96c2, type: 2}
+  bossPrepEncounter: {fileID: 0}
+  bossPrepCondition:
+    metIfEventCompleted: 0
+    storyEvent: 0
+  scarceScenery: []
+  fillerScenery:
+  - data: {fileID: 11400000, guid: fbbc739186089654fad852fb69439ef2, type: 2}
+  predefinedScenery: {fileID: 11400000, guid: 28b97835ba9ee70479dfe652ed54321c, type: 2}
+  ambientLoopId:
+  silenceCabinAmbience: 0
+  boardLightColor: {r: 0, g: 0.48435253, b: 0.6415094, a: 1}
+  cardsLightColor: {r: 0.5990566, g: 0.90177697, b: 1, a: 1}
+  dustParticlesDisabled: 1
+  fogEnabled: 0
+  fogProfile: {fileID: 11400000, guid: aaf7d6919f56de747b6a584381766d1b, type: 2}
+  fogAlpha: 0.5
+  mapAlbedo: {fileID: 2800000, guid: d6fb93f52a5e6fc43bb627e495a07d36, type: 3}
+  mapEmission: {fileID: 0}
+  mapEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+  mapParticlesPrefabs: []

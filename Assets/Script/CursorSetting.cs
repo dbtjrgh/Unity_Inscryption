@@ -9,8 +9,6 @@ public class CursorSetting : MonoBehaviour
     public Sprite newSprite; // 렌더러가 켜졌을 때 변경할 스프라이트
     public float moveSpeed = 2f; // 오브젝트 이동 속도
 
-    // targetCollider가 static이 아닌 private로 선언되어 각 오브젝트가 자신의 targetCollider를 관리하도록
-
     private Sprite originalSprite; // 원래 스프라이트
     private Animator animator;
     private Collider targetCollider;
@@ -93,6 +91,9 @@ public class CursorSetting : MonoBehaviour
                         shouldMove = true;
                         targetPosition = targetObject.transform.position;
                         animator.enabled = false; // 이동을 시작하기 전에 애니메이터를 비활성화
+
+                        // 기본 커서로 변경
+                        spriteRenderer.sprite = originalSprite;
                     }
                 }
             }
@@ -131,6 +132,34 @@ public class CursorSetting : MonoBehaviour
             }
         }
     }
+
+    void ChangeCursorToSprite(Sprite sprite)
+    {
+        if (sprite != null)
+        {
+            // 스프라이트를 텍스처로 변환
+            Texture2D texture = SpriteToTexture(sprite);
+            Cursor.SetCursor(texture, Vector2.zero, CursorMode.Auto);
+        }
+    }
+
+    Texture2D SpriteToTexture(Sprite sprite)
+    {
+        if (sprite.rect.width != sprite.texture.width)
+        {
+            Texture2D newText = new Texture2D((int)sprite.rect.width, (int)sprite.rect.height);
+            Color[] newColors = sprite.texture.GetPixels((int)sprite.textureRect.x,
+                                                         (int)sprite.textureRect.y,
+                                                         (int)sprite.textureRect.width,
+                                                         (int)sprite.textureRect.height);
+            newText.SetPixels(newColors);
+            newText.Apply();
+            return newText;
+        }
+        else
+            return sprite.texture;
+    }
+
     public bool IsMovementComplete()
     {
         return !shouldMove && hasStartedMoving;

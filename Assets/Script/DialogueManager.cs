@@ -60,7 +60,7 @@ public class DialogueManager : MonoBehaviour
         }
         if (objectToControl_2 != null)
         {
-            objectToControl_2.SetActive(string.IsNullOrEmpty(dialogueText.text));
+            objectToControl_2.SetActive(!string.IsNullOrEmpty(dialogueText.text));
         }
     }
 }

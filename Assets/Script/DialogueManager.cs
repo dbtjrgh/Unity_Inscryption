@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject objectToControl_1; // 텍스트 상태에 따라 활성화/비활성화할 오브젝트
     public GameObject objectToControl_2; // 텍스트 상태에 따라 활성화/비활성화할 오브젝트
+
+    public event Action OnDialogueEnd; // 대화 종료 이벤트
 
     void Start()
     {
@@ -41,6 +44,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueText.text = ""; // 대화 종료 시 텍스트 비우기
         UpdateObjectState();
+        OnDialogueEnd?.Invoke(); // 대화 종료 이벤트 호출
     }
 
     void Update()

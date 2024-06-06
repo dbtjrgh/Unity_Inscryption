@@ -10,6 +10,8 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject objectToControl_1; // 텍스트 상태에 따라 활성화/비활성화할 오브젝트
     public GameObject objectToControl_2; // 텍스트 상태에 따라 활성화/비활성화할 오브젝트
+    public GameObject objectToControl_3; // 텍스트 상태에 따라 활성화/비활성화할 오브젝트
+    public bool controlOrder; // true면 objectToControl_2을 먼저, false면 objectToControl_3를 먼저
 
     public event Action OnDialogueEnd; // 대화 종료 이벤트
 
@@ -58,13 +60,34 @@ public class DialogueManager : MonoBehaviour
     // 텍스트 상태에 따라 오브젝트의 활성화 상태를 업데이트하는 메서드
     void UpdateObjectState()
     {
+        // 텍스트가 있을 때 항상 활성화/비활성화할 오브젝트 처리
         if (objectToControl_1 != null)
         {
             objectToControl_1.SetActive(!string.IsNullOrEmpty(dialogueText.text));
         }
-        if (objectToControl_2 != null)
+
+        // 대화가 진행 중일 때 objectToControl_3 활성화, 종료 시 objectToControl_2 활성화
+        if (string.IsNullOrEmpty(dialogueText.text))
         {
-            objectToControl_2.SetActive(!string.IsNullOrEmpty(dialogueText.text));
+            if (objectToControl_2 != null)
+            {
+                objectToControl_2.SetActive(true);
+            }
+            if (objectToControl_3 != null)
+            {
+                objectToControl_3.SetActive(false);
+            }
+        }
+        else
+        {
+            if (objectToControl_2 != null)
+            {
+                objectToControl_2.SetActive(false);
+            }
+            if (objectToControl_3 != null)
+            {
+                objectToControl_3.SetActive(true);
+            }
         }
     }
 }

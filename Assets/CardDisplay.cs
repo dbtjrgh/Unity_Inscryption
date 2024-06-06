@@ -1,11 +1,12 @@
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class CardDisplay : MonoBehaviour
 {
     public Card card;
-    public TextMeshProUGUI attackText;
-    public TextMeshProUGUI healthText;
+    public Text nameText;
+    public Text attackText;
+    public Text healthText;
 
     void Start()
     {
@@ -14,6 +15,7 @@ public class CardDisplay : MonoBehaviour
 
     public void DisplayCard()
     {
+        nameText.text = card.cardName;
         attackText.text = card.attack.ToString();
         healthText.text = card.health.ToString();
     }

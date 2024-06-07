@@ -4,8 +4,8 @@ using UnityEngine;
 public class Card : ScriptableObject
 {
     public string cardName;
-    public int cost;
     public int attack;
     public int health;
-    public string ability;
+    public int cost;
+    public GameObject cardPrefab; // 프리팹 필드 추가
 }

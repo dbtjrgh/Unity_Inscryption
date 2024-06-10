@@ -8,20 +8,25 @@ public class CardsTransition : MonoBehaviour
     public Transform[] handRows; // Row(1)~(4)
     public int maxHandSize = 20; // 각 Row별 최대 카드 수
     public DeckVisualizer deckVisualizer; // DeckVisualizer 참조
+    public Transform playerHandTransform; // 플레이어 손패 위치
+    public float cardSpacing = 0.5f; // 카드 간격
+    public float cardAngle = 10f; // 카드 회전 각도
+
+    private List<GameObject> playerHand = new List<GameObject>(); // 플레이어 손패에 있는 카드들
+    private Dictionary<string, int> drawnCards = new Dictionary<string, int>(); // 카드 드로우 횟수 추적
 
     void Start()
     {
         InitializeDecks();
-        DrawInitialHand();
+        ClearPlayerHand(); // 손에 있는 카드 초기화
     }
 
     void InitializeDecks()
     {
         // 메인 덱 초기화
-        mainDeck.Add(Resources.Load<Card>("Cards/Wolf"));
-        mainDeck.Add(Resources.Load<Card>("Cards/Wolf"));
-        mainDeck.Add(Resources.Load<Card>("Cards/Turtle"));
-        mainDeck.Add(Resources.Load<Card>("Cards/Dambi"));
+        AddCardToDeck(mainDeck, "Wolf", 2);
+        AddCardToDeck(mainDeck, "Turtle", 1);
+        AddCardToDeck(mainDeck, "Dambi", 1);
 
         // 다람쥐 덱 초기화
         for (int i = 0; i < 20; i++)
@@ -32,6 +37,15 @@ public class CardsTransition : MonoBehaviour
         ShuffleDeck(mainDeck);
         ShuffleDeck(squirrelDeck);
         deckVisualizer.UpdateDeckVisuals();
+    }
+
+    void AddCardToDeck(List<Card> deck, string cardName, int count)
+    {
+        Card card = Resources.Load<Card>($"Cards/{cardName}");
+        for (int i = 0; i < count; i++)
+        {
+            deck.Add(card);
+        }
     }
 
     void ShuffleDeck(List<Card> deck)
@@ -45,48 +59,80 @@ public class CardsTransition : MonoBehaviour
         }
     }
 
-    public void DrawInitialHand()
+    void ClearPlayerHand()
     {
-        for (int i = 0; i < 4; i++)
+        foreach (GameObject cardGO in playerHand)
         {
-            DrawCardFromMainDeck();
+            Destroy(cardGO); // 손에 있는 카드 제거
         }
+        playerHand.Clear(); // 리스트 비우기
     }
 
     public void DrawCardFromMainDeck()
     {
         if (mainDeck.Count > 0)
         {
-            Card drawnCard = mainDeck[0];
-            mainDeck.RemoveAt(0);
-            AddCardToHand(drawnCard);
+            Card card = mainDeck[mainDeck.Count - 1]; // 메인 덱의 맨 위에 있는 카드
+            mainDeck.RemoveAt(mainDeck.Count - 1);
+            MoveCardToHand(card);
             deckVisualizer.UpdateDeckVisuals(); // 덱 시각화 업데이트
+        }
+        else
+        {
+            Debug.Log("No more cards to draw from the main deck.");
         }
     }
 
     public void DrawCardFromSquirrelDeck()
     {
+        // squirrelDeck에서 카드를 가져오기
         if (squirrelDeck.Count > 0)
         {
-            Card drawnCard = squirrelDeck[0];
-            squirrelDeck.RemoveAt(0);
-            AddCardToHand(drawnCard);
-            deckVisualizer.UpdateDeckVisuals(); // 덱 시각화 업데이트
+            Card drawnCard = squirrelDeck[squirrelDeck.Count - 1]; // 가장 위  의 카드
+            squirrelDeck.RemoveAt(squirrelDeck.Count - 1);
+
+            // 가져온 카드를 손에 추가하기
+            MoveCardToHand(drawnCard);
+        }
+        else
+        {
+            Debug.Log("No more cards to draw from the squirrel deck.");
         }
     }
 
-    void AddCardToHand(Card card)
+
+    public void MoveCardToHand(Card card)
     {
-        foreach (Transform row in handRows)
+        if (playerHand.Count >= maxHandSize)
         {
-            if (row.childCount < maxHandSize)
-            {
-                GameObject cardGO = Instantiate(card.cardPrefab, row); // 각 카드의 프리팹을 사용
-                CardDisplay cardDisplay = cardGO.GetComponent<CardDisplay>();
-                cardDisplay.card = card;
-                cardDisplay.DisplayCard();
-                return;
-            }
+            Debug.Log("Maximum hand size reached. Cannot add more cards.");
+            return;
+        }
+
+        GameObject cardGO = Instantiate(card.cardPrefab, playerHandTransform);
+        CardDisplay cardDisplay = cardGO.GetComponent<CardDisplay>();
+        cardDisplay.card = card;
+        cardDisplay.DisplayCard();
+
+        // 카드 앞뒤 반전 (Y축으로 180도 회전)
+        cardGO.transform.Rotate(0f, 180f, 0f);
+
+        // 손패에 있는 카드들 리스트에 추가
+        playerHand.Add(cardGO);
+
+        // 카드의 위치와 회전 설정
+        UpdateHandPosition();
+    }
+
+    void UpdateHandPosition()
+    {
+        for (int i = 0; i < playerHand.Count; i++)
+        {
+            float xOffset = i * cardSpacing;
+            float angleOffset = i * cardAngle - ((playerHand.Count - 1) * cardAngle / 2);
+
+            playerHand[i].transform.localPosition = new Vector3(xOffset, 0, 0);
+            playerHand[i].transform.localRotation = Quaternion.Euler(0, 180f, angleOffset); // Y축으로 180도 회전
         }
     }
 }

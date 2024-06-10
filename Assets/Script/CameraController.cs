@@ -4,18 +4,19 @@ public class CameraController : MonoBehaviour
 {
     public Transform topTransform;
     public Transform bottomTransform;
+    public Transform cardbottomTransform;
     public Transform leftTransform;
     public Transform rightTransform;
     public Transform centerTransform;
 
     public Camera mainCamera;
 
-    private enum CameraPosition { Bottom, Center, Top, Left, Right }
+    private enum CameraPosition { Bottom,Cardbottom, Center, Top, Left, Right }
     private CameraPosition currentPosition;
 
     private Transform targetTransform;
     private bool isMoving = false;
-    private float moveSpeed = 2.0f;
+    private float moveSpeed = 4.0f;
 
     void Start()
     {
@@ -84,6 +85,11 @@ public class CameraController : MonoBehaviour
             MoveCamera(topTransform);
             currentPosition = CameraPosition.Top;
         }
+        else if (currentPosition == CameraPosition.Cardbottom)
+        {
+            MoveCamera(bottomTransform);
+            currentPosition = CameraPosition.Cardbottom;
+        }
     }
 
     void MoveDown()
@@ -97,6 +103,11 @@ public class CameraController : MonoBehaviour
         {
             MoveCamera(bottomTransform);
             currentPosition = CameraPosition.Bottom;
+        }
+        else if (currentPosition == CameraPosition.Bottom)
+        {
+            MoveCamera(cardbottomTransform);
+            currentPosition = CameraPosition.Cardbottom;
         }
     }
 
@@ -112,6 +123,16 @@ public class CameraController : MonoBehaviour
             MoveCamera(centerTransform);
             currentPosition = CameraPosition.Center;
         }
+        else if (currentPosition == CameraPosition.Bottom) // 추가된 부분
+        {
+            MoveCamera(leftTransform);
+            currentPosition = CameraPosition.Left;
+        }
+        else if (currentPosition == CameraPosition.Cardbottom) // 추가된 부분
+        {
+            MoveCamera(leftTransform);
+            currentPosition = CameraPosition.Left;
+        }
     }
 
     void MoveRight()
@@ -126,7 +147,18 @@ public class CameraController : MonoBehaviour
             MoveCamera(centerTransform);
             currentPosition = CameraPosition.Center;
         }
+        else if (currentPosition == CameraPosition.Bottom) // 추가된 부분
+        {
+            MoveCamera(rightTransform);
+            currentPosition = CameraPosition.Right;
+        }
+        else if (currentPosition == CameraPosition.Cardbottom) // 추가된 부분
+        {
+            MoveCamera(rightTransform);
+            currentPosition = CameraPosition.Right;
+        }
     }
+
 
     void MoveCamera(Transform newTransform)
     {

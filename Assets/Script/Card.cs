@@ -7,5 +7,8 @@ public class Card : ScriptableObject
     public int attack;
     public int health;
     public int cost;
-    public GameObject cardPrefab; // 프리팹 필드 추가
+    public Sprite artwork;
+    public GameObject cardPrefab;
+
+    public int maxDrawCount = 1; // 추가: 각 카드의 최대 드로우 가능 수
 }

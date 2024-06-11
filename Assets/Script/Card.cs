@@ -10,5 +10,4 @@ public class Card : ScriptableObject
     public Sprite artwork;
     public GameObject cardPrefab;
 
-    public int maxDrawCount = 1; // 추가: 각 카드의 최대 드로우 가능 수
 }

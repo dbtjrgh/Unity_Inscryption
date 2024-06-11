@@ -24,7 +24,8 @@ public class CardsTransition : MonoBehaviour
     void InitializeDecks()
     {
         // 메인 덱 초기화
-        AddCardToDeck(mainDeck, "Wolf", 2);
+        AddCardToDeck(mainDeck, "Wolf", 1);
+        AddCardToDeck(mainDeck, "Wolf", 1);
         AddCardToDeck(mainDeck, "Turtle", 1);
         AddCardToDeck(mainDeck, "Dambi", 1);
 
@@ -88,18 +89,20 @@ public class CardsTransition : MonoBehaviour
         // squirrelDeck에서 카드를 가져오기
         if (squirrelDeck.Count > 0)
         {
-            Card drawnCard = squirrelDeck[squirrelDeck.Count - 1]; // 가장 위  의 카드
+            Card drawnCard = squirrelDeck[squirrelDeck.Count - 1]; // 가장 위의 카드
             squirrelDeck.RemoveAt(squirrelDeck.Count - 1);
 
             // 가져온 카드를 손에 추가하기
             MoveCardToHand(drawnCard);
+
+            // 덱 시각화 업데이트
+            deckVisualizer.UpdateDeckVisuals();
         }
         else
         {
             Debug.Log("No more cards to draw from the squirrel deck.");
         }
     }
-
 
     public void MoveCardToHand(Card card)
     {
@@ -109,21 +112,29 @@ public class CardsTransition : MonoBehaviour
             return;
         }
 
+        // 카드 객체를 생성하고, 플레이어 손패 위치에 자식으로 추가
         GameObject cardGO = Instantiate(card.cardPrefab, playerHandTransform);
         CardDisplay cardDisplay = cardGO.GetComponent<CardDisplay>();
-        cardDisplay.card = card;
-        cardDisplay.DisplayCard();
 
-        // 카드 앞뒤 반전 (Y축으로 180도 회전)
-        cardGO.transform.Rotate(0f, 180f, 0f);
+        if (cardDisplay != null)
+        {
+            cardDisplay.card = card;
+            cardDisplay.DisplayCard();
+        }
+        else
+        {
+            Debug.LogError("CardDisplay component is missing on the card prefab.");
+        }
 
-        // 손패에 있는 카드들 리스트에 추가
+        // 카드 객체를 손패에 추가
         playerHand.Add(cardGO);
 
         // 카드의 위치와 회전 설정
         UpdateHandPosition();
-    }
 
+        // 카드 뒤집기 (Y축으로 180도 회전)
+        cardGO.transform.Rotate(0f, 180f, 0f);
+    }
     void UpdateHandPosition()
     {
         for (int i = 0; i < playerHand.Count; i++)
@@ -135,4 +146,5 @@ public class CardsTransition : MonoBehaviour
             playerHand[i].transform.localRotation = Quaternion.Euler(0, 180f, angleOffset); // Y축으로 180도 회전
         }
     }
+
 }
